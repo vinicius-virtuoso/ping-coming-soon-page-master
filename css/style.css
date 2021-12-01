@@ -298,5 +298,9 @@ footer .attribution a {
     height: 30px;
     font-size: 16px;
   }
+  footer {
+    position: static;
+    padding: 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
