@@ -26,15 +26,22 @@ $Font-family: "Libre Franklin", sans-serif;
 body {
   font-family: $Font-family;
 }
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: flex-end;
+}
 main {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 300px);
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  padding: 80px 0 0 0;
+  padding: 0px 0 0 0;
 
   a {
     display: block;
